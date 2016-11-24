@@ -233,6 +233,8 @@ The output of the form preparation request will include these field and it's pos
 	}
 
 This way the client can create a `<select>` element with the suggested values, *NATIONAL* and *INTERNATIONAL*.
+Note that within the JSON response the possible values for a field are defined within "suggest" entity following the data schema
+defined within HAL-FORM hypermedia format.
 
 ## Possible values for a field retrieved from the server
  
